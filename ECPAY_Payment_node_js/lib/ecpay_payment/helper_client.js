@@ -39,7 +39,7 @@ class ECpayHelperClient {
     }
 
     get_check_mac_value(params) {
-        return this.helper.gen_chk_mac_value(parameters);
+        return this.helper.gen_chk_mac_value(params);
     }
 }
 
